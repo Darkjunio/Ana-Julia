@@ -1,0 +1,161 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9fb;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #ff5c8d;
+  color: white;
+  padding: 25px 10px;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+main {
+  flex: 1;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+
+.poesia {
+  background: white;
+  padding: 20px 25px;
+  border-radius: 16px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.fotos {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.fotos img {
+  width: 45%;
+  max-width: 320px;
+  border-radius: 18px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.fotos img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.musicas {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.botoes-musica {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.botoes-musica button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  background-color: #ff5c8d;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.botoes-musica button:hover {
+  background-color: #e63e6f;
+}
+
+.linha-tempo {
+  background: white;
+  padding: 20px 25px;
+  border-radius: 16px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+.linha-tempo ul {
+  list-style: none;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.linha-tempo li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.linha-tempo li:last-child {
+  border: none;
+}
+
+.botao-video {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.btn-feliz {
+  background-color: #ff5c8d;
+  color: white;
+  text-decoration: none;
+  padding: 18px 40px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 25px;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-feliz:hover {
+  background-color: #e63e6f;
+  transform: scale(1.05);
+}
+
+footer {
+  text-align: center;
+  padding: 18px 10px;
+  background-color: #ff5c8d;
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.botao-convite {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.btn-convite {
+  background-color: #ff69b4;
+  color: white;
+  padding: 0.9rem 1.8rem;
+  border: none;
+  border-radius: 40px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-convite:hover {
+  background-color: #e0559a;
+}
